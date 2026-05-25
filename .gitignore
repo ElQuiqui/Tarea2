@@ -46,15 +46,6 @@ Desktop.ini
 # Todo lo que produce src/main.py y tools/eval_calibracion.py es regenerable.
 output/
 
-# ── Dataset ────────────────────────────────────────────────────────────────
-# Las imágenes JPG son pesadas y normalmente no se versionan.
-# Comentar la línea siguiente si quieres trackear el dataset.
-data/**/*.jpg
-data/**/*.jpeg
-data/**/*.png
-data/**/*.bmp
-data/**/*.tif
-data/**/*.tiff
 
 # ── Notebooks / temporales ─────────────────────────────────────────────────
 .ipynb_checkpoints/
