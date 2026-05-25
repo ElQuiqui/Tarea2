@@ -1,0 +1,61 @@
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribución / build
+build/
+dist/
+*.egg
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# ── Entornos virtuales ─────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Testing ────────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+
+# ── IDE / editores ─────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Sistema operativo ──────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# ── Salidas generadas por el pipeline ──────────────────────────────────────
+# Todo lo que produce src/main.py y tools/eval_calibracion.py es regenerable.
+output/
+
+# ── Dataset ────────────────────────────────────────────────────────────────
+# Las imágenes JPG son pesadas y normalmente no se versionan.
+# Comentar la línea siguiente si quieres trackear el dataset.
+data/**/*.jpg
+data/**/*.jpeg
+data/**/*.png
+data/**/*.bmp
+data/**/*.tif
+data/**/*.tiff
+
+# ── Notebooks / temporales ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.log

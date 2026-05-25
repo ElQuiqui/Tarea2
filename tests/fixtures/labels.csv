@@ -1,0 +1,32 @@
+filepath,clase,iluminacion,fondo
+# Llenar con imágenes etiquetadas (rutas relativas a la raíz del proyecto).
+# clase       ∈ {ok, rayado, contaminacion, abrasion}
+# iluminacion ∈ {45, 60, lateral}
+# fondo       ∈ {hoja, tela}
+# Ejemplo:
+# data/Hoja/Iluminacion45/img001.jpg,ok,45,hoja
+# data/Tela/Iluminacionlateral/img007.jpg,rayado,lateral,tela
+data/Hoja/Iluminacionlateral/hojalateral_02.jpg, abrasion, lateral, hoja
+data/Hoja/Iluminacionlateral/hojalateral_07.jpg, ok, lateral, hoja
+data/Hoja/Iluminacionlateral/hojalateral_14.jpg, contaminacion, lateral, hoja
+data/Hoja/Iluminacionlateral/hojalateral_21.jpg, rayado, lateral, hoja
+data/Hoja/Iluminacion60/hoja60_01.jpg, ok, 60, hoja
+data/Hoja/Iluminacion60/hoja60_03.jpg, contaminacion, 60, hoja
+data/Hoja/Iluminacion60/hoja60_08.jpg, abrasion, 60, hoja
+data/Hoja/Iluminacion60/hoja60_16.jpg, rayado, 60, hoja
+data/Hoja/Iluminacion45/hoja45_12.jpg, ok, 45, hoja
+data/Hoja/Iluminacion45/hoja45_06.jpg, contaminacion, 45, hoja
+data/Hoja/Iluminacion45/hoja45_03.jpg, abrasion, 45, hoja
+data/Hoja/Iluminacion45/hoja45_01.jpg, rayado, 45, hoja
+data/Tela/Iluminacionlateral/telalateral_03.jpg, abrasion, lateral, tela
+data/Tela/Iluminacionlateral/telalateral_06.jpg, ok, lateral, tela
+data/Tela/Iluminacionlateral/telalateral_10.jpg, contaminacion, lateral, tela
+data/Tela/Iluminacionlateral/telalateral_11.jpg, rayado, lateral, tela
+data/Tela/Iluminacion60/tela60_02.jpg, ok, 60, tela
+data/Tela/Iluminacion60/tela60_01.jpg, contaminacion, 60, tela
+data/Tela/Iluminacion60/tela60_13.jpg, abrasion, 60, tela
+data/Tela/Iluminacion60/tela60_16.jpg, rayado, 60, tela
+data/Tela/Iluminacion45/tela45_02.jpg, ok, 45, tela
+data/Tela/Iluminacion45/tela45_28.jpg, contaminacion, 45, tela
+data/Tela/Iluminacion45/tela45_12.jpg, abrasion, 45, tela
+data/Tela/Iluminacion45/tela45_16.jpg, rayado, 45, tela
